@@ -1,5 +1,5 @@
 # ECEC353
-CS 265 - Systems Programming  
+ECEC 353 - Systems Programming  
 Professor - Kandasamy
 -----------------------------------
 
