@@ -1,4 +1,5 @@
 /* Code for the Jacobi equation solver. 
+ * Authors: Caleb Secor and Darius Olega
  * 
  * Date modified: March 26, 2020
  *
@@ -154,7 +155,7 @@ compute_using_pthreads_jacobi (grid_t *grid, int num_threads)
     }
     int num_iter = 0;
 	int done = 0;
-    float eps = 1e-6;
+    float eps = 1e-4;
     pthread_t *worker_thread = (pthread_t *) malloc (num_threads * sizeof (pthread_t));
     diff_multi = 0;
     num_elements_multi =0;

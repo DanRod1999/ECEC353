@@ -1,0 +1,19 @@
+Solution computed using single thread in: 1674.346201s
+Convergence achieved after 42006 iterations
+Statistics for the interior grid points:
+VG: 20.958890
+MIN: 0.000002
+MAX: 137.504974
+
+AVG: 9.131395
+MIN: 0.000000
+MAX: 139.478287
+
+AVG: 9.288484
+MIN: 0.000000
+MAX: 141.551498
+
+AVG: 9.186700
+MIN: 0.000000
+MAX: 140.147461
+

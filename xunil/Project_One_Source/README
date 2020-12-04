@@ -1,0 +1,34 @@
+Authors: Isaac Deerwester, Daniel Rodriguez
+
+**To compile chat_server.c
+gcc -o chat_server chat_server.c -std=c99 -Wall -lrt
+
+**To compile chat_client.c
+gcc -o chat_client chat_client.c -std=c99 -Wall -lrt
+
+**To run chat_server
+./chat_server &
+
+**While chat_server is running
+--Server will print when a user is connected and disconnected
+
+**To run chat_client
+./chat_client 'userName'
+--Any username will work under 32 characters as specified in msg_structure.h
+--Multiple clients can connect to chat_server at a time
+
+**While client is running
+--When connected, client can broadcast to all users or private message to a single user
+--Three options are displayed
+    'B'roadcast message
+    'P'rivate message
+    'E'xit
+--B will prompt to enter another string. This string will be sent to all clients
+--P will prompt for the name of another client in session, then prompt for the message
+--E will exit client from the server
+--Clients will recieve any unread messages as long as user is not in the middle of sending any messages
+
+
+
+
+
